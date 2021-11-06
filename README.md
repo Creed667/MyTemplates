@@ -1,1 +1,2 @@
-"# MyTemplates" 
+Custom Tamplates for competitive programming 
+
