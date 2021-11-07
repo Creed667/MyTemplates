@@ -26,7 +26,7 @@ int lowerBound(int x, int v[])
     while ((l + 1) < r)
     {
         m = (l + r) / 2;
-        if (x <= v[m])
+        if (x <= v[m])  //finding the next equal x in the left side
             r = m;
         else
             l = m;
@@ -40,7 +40,7 @@ int upperBound(int x, int v[])
     while ((l + 1) < r)
     {
         m = (l + r) / 2;
-        if (x >= v[m]) // finding the next equal x on thr right side
+        if (x >= v[m]) // finding the next equal x on the right side
             l = m;
         else
             r = m; // rwill be on the upper bound
